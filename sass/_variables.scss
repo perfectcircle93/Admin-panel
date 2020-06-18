@@ -1,10 +1,32 @@
 /* Colors */
-$paragraph-color: #000000;
-$brand-main-color: #ff0000;
+$paragraph-color:#8395a7;
+$text-color: #000000;
+$white-color: #ffffff;
+$orange-color: #F79F1F;
+$green-color: #009432;
+$blue-color: #1B9CFC;
+$link-color: #1289A7;
+$link-clicked-color: #12CBC4;
+$btn-hover-color: #F79F1F;
+$btn-cancel-color: #535c68;
+$background-color: #f5f5f2;
+$sidebar-background: #1e272e;
+$table-hover-color: #f1f3f3;
 
 /* Font sizes */
+$header-font-size: 18px;
 $paragraph-font-size: 16px;
+$btn-font-size: 18px;
+$link-font-size: 14px;
 
 /* Fonts */
-$brand-font: "Open Sans", Helvetica, Arial;
-$paragraph-font: "Open Sans", Helvetica, Arial;
+$main-font: 'Oswald', sans-serif;
+$sidebar-font: 'Satisfy', cursive;
+
+/* Font weights */
+$light-font-weight: 300;
+$medium-font-weight: 500;
+$bold-font-weight: 700;
+
+/* Margin */
+
