@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    transition: margin-left .5s;
+    //flex: 5;
+  }
+  
+  .main.sidebar-close {
+    margin-left: 0;
+  }
+  
+  .content {
+    background: $background-color;
+    display: flex;
+    flex-direction: column ;
+  }
+  
+  .content > article {
+    flex: 4;
+    min-height: 60vh;
+  }
+  
+  .main-header, .box {
+    padding: 1em;
+  }

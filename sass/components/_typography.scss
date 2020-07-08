@@ -1,0 +1,51 @@
+.typo__page-header {
+    font-size: $header-font-size;
+    font-weight: $medium-font-weight;
+    text-transform: uppercase;
+  }
+  
+  .typo__section-header {
+    font-size: $header-font-size;
+    font-weight: $bold-font-weight;
+  }
+  
+  .typo__text {
+    font-size: $paragraph-font-size;
+    font-weight: $light-font-weight;
+    color: $text-color;
+  }
+  
+  .typo__budget {
+    font-size: 20px;
+    font-weight: $medium-font-weight;
+  }
+  
+  /* Links */
+  
+  .typo__link a {
+    text-decoration: none;
+    font-weight: $light-font-weight;
+    color: $link-color;
+  }
+  
+  .typo__link a:hover {
+    color: $orange-color;
+  }
+  
+  .typo__link {
+    text-decoration: none;
+    font-weight: $light-font-weight;
+    color: $link-color;
+  }
+  
+  .typo__link:hover {
+    color: $orange-color;
+  }
+  
+  .typo__link-lg {
+    font-size: 16px;
+  }
+  
+  .typo__link-sm {
+    font-size: 13px;
+  }

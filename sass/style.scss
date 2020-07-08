@@ -2,12 +2,26 @@
 @import "mixins";
 @import "normalize";
 @import "layout";
+@import "grid";
+@import "icons";
 
 /* Components */
 //@import "components/form_field";
+@import "./components/content-box";
+@import "./components/main-header";
+@import "./components/sidebar";
+@import "./components/buttons";
+@import "./components/typography";
+@import "./components/tables";
+@import "./components/calendar";
+@import "./components/chart";
 
 /* Sections */
 //@import "section/registration_form";
+@import "./sections/content";
+@import "./sections/header";
+@import "./sections/sidebar";
 
 /* Pages / Views */
 //@import "pages/registration";
+@import "./pages/dashboard";
