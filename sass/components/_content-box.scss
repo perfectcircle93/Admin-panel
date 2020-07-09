@@ -1,12 +1,12 @@
 .box {
-    background: $paragraph-color;
+    background: white;
     max-width: auto;
     height: 400px;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   
     .box__header {
-      border-bottom: 1px solid $orange-color;
+      border-bottom: 1px solid $paragraph-color;
       padding-bottom: 16px;
     }
   }

@@ -1,7 +1,7 @@
 .navigation {
     width: 100%;
     height: 60px;
-    background-color: $paragraph-color;
+    background-color: white;
     overflow: auto;
   }
   
@@ -54,7 +54,7 @@
   }
   
   @media all and (max-width: 600px) {
-    .section__sidebar {
+    .section_sidebar {
       display: none;
     }
   

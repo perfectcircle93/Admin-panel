@@ -15,7 +15,7 @@
   
     .cal__box {
       height: 40px;
-      border: 1px solid $orange-color;
+      border: 1px solid $paragraph-color;
   
       .cal__min-date,
       .cal__max-date {
@@ -25,7 +25,7 @@
       }
   
       .cal__min-date {
-        border-right: 1px solid $orange-color;
+        border-right: 1px solid $paragraph-color;
       }
   
       .cal__icon:hover {

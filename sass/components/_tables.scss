@@ -18,7 +18,7 @@
   
   .table__with-link {
     .table__row {
-      border-top: 1px solid $orange-color;
+      border-top: 1px solid $paragraph-color;
       height: 55px;
     }
   
@@ -53,7 +53,7 @@
   
   .list__with-one-digit {
     .list__row {
-      border-bottom: 1px solid $orange-color;
+      border-bottom: 1px solid $paragraph-color;
       height: 55px;
     }
   
@@ -67,7 +67,7 @@
     }
   
     .list__col-gutter {
-      border-bottom: 1px solid $paragraph-color;
+      border-bottom: 1px solid white;
       min-width: 30px;
     }
   }
