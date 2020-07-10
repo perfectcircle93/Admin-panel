@@ -1,29 +1,29 @@
 function toggleMenu(visible) {
   document.querySelector('.section_sidebar').classList.toggle('open', visible);
   document.querySelector('.main').classList.add('sidebar-close');
-  
+
 }
-  
+
 document.querySelector('.close-sidebar').addEventListener('click', function (e) {
 // console.log('click: ', e);
   e.preventDefault();
   toggleMenu();
 });
-  
+
 function toggleMobileMenu(visible) {
   document.querySelector('.section_sidebar').classList.toggle('open', visible);
   document.querySelector('.main').classList.add('sidebar-close');
-  
+
 }
-  
+
 document.querySelector('.mobile-bars').addEventListener('click', function (e) {
   console.log('click: ', e);
   e.preventDefault();
   toggleMobileMenu();
 });
-  
+
 // chart.js
-  
+
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
   // 1
@@ -56,4 +56,24 @@ var chart = new Chart(ctx, {
       hidden: true,
     }]
   },
+  options: {
+    legend: {
+      display: false,
+    },
+    legendCallback: function(chart) {
+
+      let html = '<ul class="chart-legend">';
+
+      for(const dataset of chart.data.datasets) {
+        html += `<li class="chart-legend__item"><span style="background-color: ${dataset.backgroundColor}"></span>${dataset.label}</li>`;
+      }
+
+      html += '</ul>';
+
+      return html;
+
+    }
+  }
 });
+
+document.querySelector('.chart_legend').innerHTML = chart.generateLegend();

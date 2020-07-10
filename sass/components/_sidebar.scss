@@ -72,3 +72,33 @@
     }
   
   }
+
+  .sidebar-profile  {
+    position: relative;
+    display: flex;
+    border-top: 1px solid;
+    justify-content: space-evenly;
+    i {
+      margin-top: 20px;
+      font-size: 50px;
+    }
+    p {
+      margin-top: 35px;
+      color: $link-color;
+    }
+  }
+
+  /*Profile*/
+
+  .sidebar-profile .badge {
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    left: 65px;
+    padding: 7px 7px;
+    border-radius: 50%;
+    background: green;
+    color: white;
+  }
+
+  

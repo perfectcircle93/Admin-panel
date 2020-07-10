@@ -346,7 +346,7 @@ template {
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  color: #8395a7;
+  color: #9b9b9b;
 }
 
 /*!
@@ -4482,7 +4482,7 @@ html {
 }
 
 .box .box__header {
-  border-bottom: 1px solid #8395a7;
+  border-bottom: 1px solid #9b9b9b;
   padding-bottom: 16px;
 }
 
@@ -4496,7 +4496,7 @@ html {
 .navigation a {
   float: right;
   padding: 20px 12px 0px 12px;
-  color: #535c68;
+  color: #9b9b9b;
   text-decoration: none;
   font-size: 17px;
 }
@@ -4588,7 +4588,7 @@ html {
 
 .btn-close a {
   text-decoration: none;
-  color: #8395a7;
+  color: #9b9b9b;
 }
 
 .btn-close i {
@@ -4606,7 +4606,7 @@ html {
 /* Navigation */
 .sidebar-nav a {
   display: block;
-  color: #8395a7;
+  color: #9b9b9b;
   font-size: 16px;
   font-weight: 300;
   padding: 20px 0;
@@ -4631,6 +4631,37 @@ html {
   .btn-close {
     display: inline;
   }
+}
+
+.sidebar-profile {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid;
+  -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+}
+
+.sidebar-profile i {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.sidebar-profile p {
+  margin-top: 35px;
+  color: #1289A7;
+}
+
+/*Profile*/
+.sidebar-profile .badge {
+  font-size: 20px;
+  position: absolute;
+  top: 18px;
+  left: 65px;
+  padding: 7px 7px;
+  border-radius: 50%;
+  background: green;
+  color: white;
 }
 
 .btn__container {
@@ -4670,7 +4701,7 @@ html {
 }
 
 .btn__grey:hover {
-  background-color: #8395a7;
+  background-color: #9b9b9b;
 }
 
 .btn__disabled {
@@ -4703,8 +4734,9 @@ html {
 }
 
 .typo__section-header {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
+  color: #9b9b9b;
 }
 
 .typo__text {
@@ -4759,7 +4791,7 @@ html {
 }
 
 .table__with-link tr:hover {
-  background: #F79F1F;
+  background: #f7f7f7;
 }
 
 .table__with-link tr:hover .table__col-icon i {
@@ -4767,7 +4799,7 @@ html {
 }
 
 .table__with-link .table__row {
-  border-top: 1px solid #8395a7;
+  border-top: 1px solid #9b9b9b;
   height: 55px;
 }
 
@@ -4800,7 +4832,7 @@ html {
 }
 
 .list__with-one-digit .list__row {
-  border-bottom: 1px solid #8395a7;
+  border-bottom: 1px solid #9b9b9b;
   height: 55px;
 }
 
@@ -4837,7 +4869,7 @@ html {
 
 .cal__container .cal__box {
   height: 40px;
-  border: 1px solid #8395a7;
+  border: 1px solid #9b9b9b;
 }
 
 .cal__container .cal__box .cal__min-date,
@@ -4848,7 +4880,7 @@ html {
 }
 
 .cal__container .cal__box .cal__min-date {
-  border-right: 1px solid #8395a7;
+  border-right: 1px solid #9b9b9b;
 }
 
 .cal__container .cal__box .cal__icon:hover {
@@ -4863,6 +4895,33 @@ html {
 
 .chart__container .chart__header {
   padding: 20px 0;
+}
+
+.chart__container .chart-legend {
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.chart__container .chart-legend__item {
+  border: 0;
+  border-radius: 4px;
+  margin: 0 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 9px;
+  padding-left: 0;
+  background-color: #e7e7e7;
+}
+
+.chart__container .chart-legend__item span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 10px;
 }
 
 /* Sections */
@@ -4902,7 +4961,7 @@ html {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #8395a7;
+  border-bottom: 1px solid #9b9b9b;
   padding: 0;
 }
 
