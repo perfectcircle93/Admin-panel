@@ -13,7 +13,7 @@
   .content {
     background: $background-color;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
   }
   
   .content > article {
@@ -24,3 +24,11 @@
   .main-header, .box {
     padding: 1em;
   }
+
+  @media all and (max-width: 600px) {
+
+    .main {
+      margin-left: 0;
+    }
+  }
+  
